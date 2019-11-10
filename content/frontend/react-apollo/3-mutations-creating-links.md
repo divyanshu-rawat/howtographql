@@ -133,7 +133,7 @@ Still in `CreateLink.js`, replace `<Mutation />` component as follows:
 
 ```js(path=".../hackernews-react-apollo/src/components/CreateLink.js")
 <Mutation mutation={POST_MUTATION} variables={{ description, url }}>
-  {postMutation => <button onClick={postMutation}>Submit</button>}
+  {PostMutation => <button onClick={PostMutation}>Submit</button>}
 </Mutation>
 ```
 
